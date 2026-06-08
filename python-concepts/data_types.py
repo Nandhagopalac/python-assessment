@@ -15,6 +15,7 @@ print(coordinates)
 # 3.Set , unordered, Unique values only , Notice duplicate is removed.
 
 data = {1,2,3,4,5,6,1,2,55,67,67,8990}
+data[0]=23
 print(data)
 print(type(data))
 # data.append(2) AttributeError: 'set' object has no attribute 'append'
@@ -27,7 +28,8 @@ employees = {
     'is_active': True
 }
 print(type(employees))
-
+employees['name']='gopal'
+print(employees)
 # 5 None type
 data_none = None
 print(data_none)
