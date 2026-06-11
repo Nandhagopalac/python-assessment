@@ -37,8 +37,8 @@
 
 # The snippet above throws a NameError because we hadn't defined a greetings variable. We can fix this by defining the variable beforehand:
 
-# greetings = 'Howdy 🤠'
-# print(greetings)
+greetings = 'Howdy 🤠'
+print(greetings)
 
 # # Output: Howdy 🤠
 
@@ -58,3 +58,20 @@
 # print(message + str(28))
 
 # # Output: The air quality is 28
+# if True:
+# print("Hello")
+
+# | Error               | Think                          |
+# | ------------------- | ------------------------------ |
+# | SyntaxError         | "Python can't read my code"    |
+# | IndentationError    | "Spaces are wrong"             |
+# | NameError           | "Variable doesn't exist"       |
+# | TypeError           | "Wrong data type"              |
+# | ValueError          | "Wrong value"                  |
+# | IndexError          | "List position doesn't exist"  |
+# | KeyError            | "Dictionary key doesn't exist" |
+# | AttributeError      | "Method doesn't belong here"   |
+# | ZeroDivisionError   | "Can't divide by zero"         |
+# | FileNotFoundError   | "File missing"                 |
+# | ModuleNotFoundError | "Module missing"               |
+# # 
