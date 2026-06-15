@@ -35,12 +35,12 @@
 
 # # NameError: name 'greetings' is not defined
 
-# The snippet above throws a NameError because we hadn't defined a greetings variable. We can fix this by defining the variable beforehand:
+# # The snippet above throws a NameError because we hadn't defined a greetings variable. We can fix this by defining the variable beforehand:
 
-greetings = 'Howdy 🤠'
-print(greetings)
+# greetings = 'Howdy 🤠'
+# print(greetings)
 
-# # Output: Howdy 🤠
+# # # Output: Howdy 🤠
 
 # # TypeError
 # One more common error that we will look at is the TypeError. When working with variables of various data types (e.g., numbers, strings, and booleans), you will likely come across this error.
@@ -75,3 +75,13 @@ print(greetings)
 # | FileNotFoundError   | "File missing"                 |
 # | ModuleNotFoundError | "Module missing"               |
 # # 
+
+# a = 12/0
+# print(a)
+
+
+# num = int("hhss")
+# print(num)
+name ="nandha"
+result = name+12
+print(result)
