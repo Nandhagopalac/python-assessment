@@ -1,3 +1,9 @@
-with open("students.txt", "r") as file:
-    for student in file:
-        print(student.strip())
+import os 
+if os.path.exists("loss1.txt"):
+    print("path exist")
+else:
+    print("path does not exist")
+
+    with open("loss.txt",'r') as file:
+        for f in file:
+            print(f.strip())
