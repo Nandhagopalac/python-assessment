@@ -1,6 +1,5 @@
-name="nandha"
-print(name)
+mytuple = {10, 20, 30}
 
+print(mytuple[0])   # ✅ you can read values
 
-inuts = int(input("nandhagopal"))
-print(inuts)
+mytuple[0] = 99     # ❌ error: 'tuple' object does not support item assignment

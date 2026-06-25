@@ -34,3 +34,5 @@ print(employees)
 data_none = None
 print(data_none)
 type(data_none)
+
+
