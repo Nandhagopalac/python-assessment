@@ -18,5 +18,5 @@ print(score1)
 
 # So 2 ** 3 is 2³ and 10 ** 2 is 10²
 
-score = 2**6
+score = 2**3
 print(score)

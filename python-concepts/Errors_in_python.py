@@ -1,3 +1,4 @@
+
 # Here are some common Python errors:
 
 # SyntaxError: this occurs when invalid Python code is present.
